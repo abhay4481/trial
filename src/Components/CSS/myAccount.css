@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-my-account{
+    display: flex;
+    /* background-color: black; */
+    justify-content: center;
+}
+
+.account-list{
+    margin-top: 8%;
+    width: 100%;
+    list-style: none;
+    /* border: 1px solid black; */
+    
+    align-items: center;
+}
+
+.listItem-myaccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container-my-account ul li{
+    margin: 1%;
+    height: 20%;
+    padding: 2%;
+    /* border: 1px solid black ; */
+    border-radius: 6px;
+    box-shadow: 0 5px 25px  rgba(0, 0, 0, 0.264);
+    transition: transform .5s;
+}
+
+.container-my-account ul li:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 25px rgba(0,0,0,.2);
+    background-color: grey ;
+    color: white;
+}
